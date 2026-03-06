@@ -25,7 +25,7 @@ const HomeOne = () => {
       <ProjectArea />
       <TestimonialArea />
       <RankArea />
-      <PriceArea />
+ 
       </main> 
       <Footer />
       <ScrollToTop />
