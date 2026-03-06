@@ -127,72 +127,7 @@ const {sub_title, title, btn_text}  = rank_content
 const RankArea = () => {
     return (
         <>
-            <div className="tp-rank__area pt-100 pb-100">
-               <div className="container">
-                  <div className="row">
-                     <div className="col-xl-5 col-lg-5 order-1 order-lg-1">
-                        <div className="tp-rank__section-box pb-25 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                           <h4 className="tp-section-subtitle">{sub_title}</h4>
-                           <h3 className="tp-section-title">{title}</h3>
-                        </div>
-                        <div className="tp-rank__btn wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                           <Link className="tp-btn tp-btn-hover alt-color-black" href="/register">
-                              <span>{btn_text}</span>
-                              <b></b>
-                           </Link>
-                        </div>
-                     </div>
-                     <div className="col-xl-7 col-lg-7 order-0 order-lg-2">
-                        <div className="tp-rank__wrapper p-relative">
-
-                            {circle_shape.map((item, i )  => 
-                                <div key={i} 
-                                className={`tp-rank__circle-shape-${item.cls} d-none d-sm-block wow`} 
-                                data-wow-duration=".9s" 
-                                data-wow-delay={item.delay}>
-                                    <Image src={item.img} alt="circle" />
-                                </div>
-                                
-                             )}
-
-                           <div className="tp-rank__bg-shape">
-                              <Image className="wow tpfadeRight" 
-                              data-wow-duration=".9s" 
-                              data-wow-delay="1.2s" 
-                              src={bg_right_img} alt={title} />
-                           </div>
-
-
-                           <div className="tp-rank__rank-card wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
-
-                            {rank_data.map((item, i)  => 
-                                <div key={i} className={`tp-rank__item p-relative ${item.clg_1}`}>
-                                {item.top_img && 
-                                <div className="tp-rank__cup">
-                                <span><Image src={item.top_img} alt="" /></span>
-                                </div>}
-
-                                <div className="tp-rank__number d-flex align-items-center justify-content-center">
-                                <i>#</i>
-                                <span>{item.count}</span>
-                                </div>
-                                <div className="tp-rank__company">
-                                <span><Image src={item.img} alt="" /></span>
-                                </div>
-                                <div className="tp-rank__company-info">
-                                <Link href="#">{item.domain} </Link> 
-                                <span>{item.visitors}</span>
-                                </div>
-                            </div>
-                                )
-                            }
-                           </div>
-
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+         
         </>
     );
 };

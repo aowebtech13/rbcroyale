@@ -28,7 +28,7 @@ const footer_content = {
             links: [
                 {name: "Home", link: "www.partners.lexicrone.com/"},
                 {name: "Register", link: "https://www.partners.lexicrone.com/register"},
-                {name: "Pricing Plan", link: "/price"},
+   
                 
             ]
         },

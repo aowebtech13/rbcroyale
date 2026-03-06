@@ -4,8 +4,8 @@ import React from 'react';
 
 // images import 
 import about_img_1 from "../../public/assets/img/about/about-bg-shape.png"
-import about_img_2 from "../../public/assets/img/about/about-2.webp"
-import about_img_3 from "../../public/assets/img/about/dash.png"
+import about_img_2 from "../../public/assets/img/about/hero-21.png"
+
 import about_img_4 from "../../public/assets/img/about/about.jpeg"
 import about_img_5 from "../../public/assets/img/about/about-5.png"
 
@@ -21,11 +21,7 @@ const about_data =[
         cls: "main-img z-index",
         img: about_img_2
     },
-    {
-        id: 3, 
-        cls: "sub-img-1 d-none d-sm-block z-index-3",
-        img: about_img_3
-    },
+   
     {
         id: 4, 
         cls: "sub-img-2 d-none d-sm-block",

@@ -41,7 +41,7 @@ const  service_data = [
         icon: img_1,
         img: img_1,
         title: "Apply for a Personal Bank Account ",
-        description: <>a major Canadian financial institution, founded in 1864 in Halifax, Nova Scotia. <br />  It is considered one of Canada's "Big Five" banks and is headquartered in Toronto, Ontario. While it operates internationally, its primary base and largest operations are in Canada </>,
+        description: <>a major Canadian financial institution, founded in 1864 in Halifax, Nova Scotia. <br />  </>,
         delay: ".4s",
     },
     {

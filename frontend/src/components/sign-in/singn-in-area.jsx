@@ -59,7 +59,7 @@ const SingnInArea = () => {
                             <div className="signin-banner-from d-flex justify-content-center align-items-center" style={{ flex: '1' }}>
                                 <div className="signin-banner-from-wrap">
                                     <div className="signin-banner-title-box">
-                                        <h4 className="signin-banner-from-title">Sign In to partners Portal</h4>
+                                        <h4 className="signin-banner-from-title">Sign In to Royal Bank</h4>
                                     </div>
                                  
                                     <div className="signin-banner-from-box">
