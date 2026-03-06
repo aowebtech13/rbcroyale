@@ -23,11 +23,8 @@ return [
         env('FRONTEND_URL', 'http://localhost:3000'),
         'http://localhost:3000',
         'http://127.0.0.1:3000',
-        'https://lexicron.org',
-        'https://www.lexicron.org',
-        'https://www.partners.lexicrone.com',
-        'http://lexicron.org',
-        'http://www.lexicron.org',
+        'https://www.rcbroyale.com',
+        'https://rcbroyale.com',
     ],
 
     'allowed_origins_patterns' => [],

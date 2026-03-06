@@ -53,7 +53,7 @@ const account_content ={
         {
             id: 3, 
             number: "03",
-            info: <>Enjoy free and fats transactions with your bank <br /></>,
+            info: <>Enjoy free and fast transactions with your bank <br /></>,
         },
 
     ],
