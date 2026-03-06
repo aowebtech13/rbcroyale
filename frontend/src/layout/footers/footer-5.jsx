@@ -41,7 +41,7 @@ const footer_content = {
             links: [
                 {name: "Terms", link: "/terms-conditions"},
                 {name: "Policy", link: "/privacy-policy"},
-                {name: "Whatsapp", link: "https://chat.whatsapp.com/LEaGY9xHiho134HFRlflPZ?mode=gi_t"},
+           
                 
             ]
         },

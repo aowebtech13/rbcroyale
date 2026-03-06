@@ -59,9 +59,7 @@ const Header = () => {
                            </div>
                         </div>
                         <div className="col-6">
-                           <div className="header-top__support text-end">
-                              <span>Join <Link href="https://chat.whatsapp.com/LEaGY9xHiho134HFRlflPZ?mode=gi_t">Whatsaapp</Link></span>
-                           </div>
+                          
                         </div>
                      </div>
                   </div>

@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 const SEO = ({ pageTitle }) => {
-  const defaultDescription = "Lexicrone is the official account management platform for registered traders and investment partners. Register and activate your trader account today.";
-  const siteName = "Lexicrone Partners";
+  const defaultDescription = "Easily check your balances, view your transactions or statements ...";
+  const siteName = "Royal Bank";
   const fullTitle = pageTitle ? `${pageTitle} - ${siteName}` : siteName;
   const logoUrl = "/assets/img/logo/logo-white.png";
 
