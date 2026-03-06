@@ -40,8 +40,8 @@ const  service_data = [
         id: 1,
         icon: img_1,
         img: img_1,
-        title: "Choose A Trading Plan",
-        description: <>Select one of our professional traders  <br /> whose strategy aligns with your goals</>,
+        title: "Apply for a Personal Bank Account ",
+        description: <>a major Canadian financial institution, founded in 1864 in Halifax, Nova Scotia. <br />  It is considered one of Canada's "Big Five" banks and is headquartered in Toronto, Ontario. While it operates internationally, its primary base and largest operations are in Canada </>,
         delay: ".4s",
     },
     {
@@ -72,8 +72,8 @@ const  service_data = [
         id: 5,
         icon: img_5,
         img: img_5,
-        title: "Nature Of Service",
-        description: <>Lexicrone Partners provides professional Forex   <br /> trading services on a profit-sharing basis.</>,
+        title: "RBC ATMs",
+        description: <>Many of our ATMs offer the option to withdraw   <br /> U.S. cash from a Canadian or U.S. dollar account.</>,
         delay: ".9s",
     },
 

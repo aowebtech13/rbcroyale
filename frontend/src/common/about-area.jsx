@@ -41,15 +41,15 @@ const about_data =[
 // about content
 const about_content = {
     title: "OVER 150K+ CLIENT",
-    sub_title: "Forex Trading Managed for You", 
-    des: <>At Lexicrone Partners, we help individuals grow their capital in the Forex market without the stress of trading themselves. </>,
+    sub_title: "Rbc Royal Bank", 
+    des: <>Explore the personal banking services and products available from RBC Royal Bank to help you manage your finances, buy a home, invest and more. </>,
 
     about_list: [
-        <>Risk Management First</>,
-        <>Global Access – Open to partners worldwide</>,
-        <> AI-Driven Trading Support .</>,
+        <>Online Banking</>,
+        <>Customer Service</>,
+        <> Personal Banking.</>,
     ],
-    btn_text: "Invest Now",
+    btn_text: "Open An Account",
 
 }
 const {title, sub_title, des, about_list, btn_text}  = about_content

@@ -30,8 +30,8 @@ const hero_content = {
             img: shape_2,
         },
     ],
-    hero_title: <><span className='tp_title'><span className='child'>Earn Smarter</span></span> <br />
-        <span><span className='child'>Partner with Experts.</span></span> </>,
+    hero_title: <><span className='tp_title'><span className='child'>Explore the  </span></span> <br />
+        <span><span className='child'>Personal banking services</span></span> </>,
     sub_title: <Link href="/welcome" className="crone-ai-link">Power up your trading with CRONE AI HERE</Link>,
     hero_shape_img: [
         {
