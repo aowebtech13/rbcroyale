@@ -8,7 +8,7 @@ const AvailablePlansPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"Available Plans | Lexicrone Finance"} />
+                <SEO pageTitle={"Available Plans | Rcb Royale Bank"} />
                 <AvailablePlansMain />
             </Wrapper>
         </ProtectedRoute>

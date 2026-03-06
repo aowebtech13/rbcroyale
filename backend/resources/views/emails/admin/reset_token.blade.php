@@ -12,6 +12,6 @@
     </div>
     <p>This token will expire in 15 minutes.</p>
     <p>If you did not request this, please ignore this email.</p>
-    <p>Regards,<br>Lexicrone Finance Security Team</p>
+    <p>Regards,<br>Rcb Royale Bank Security Team</p>
 </body>
 </html>

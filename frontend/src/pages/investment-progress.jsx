@@ -10,7 +10,7 @@ const InvestmentProgressPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"Investment Progress | Lexicrone Finance"} />
+                <SEO pageTitle={"Investment Progress | Rcb Royale Bank"} />
                 <HeaderSix style_2={true} />
                 <div id="smooth-wrapper">
                     <div id="smooth-content">

@@ -24,7 +24,7 @@ class PasswordResetOTP extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Password Reset Code - Lexicrone Finance',
+            subject: 'Password Reset Code - Rcb Royale Bank',
         );
     }
 

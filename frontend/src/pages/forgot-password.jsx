@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const ForgotPasswordPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Forgot Password | Lexicrone Finance"} />
+      <SEO pageTitle={"Forgot Password | Rcb Royale Bank"} />
       <ForgotPassword />
     </Wrapper>
   );

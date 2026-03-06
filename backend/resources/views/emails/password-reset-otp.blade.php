@@ -86,7 +86,7 @@
     <div class="container">
         <div class="lock-icon">🔐</div>
         <h1 class="title">Password Reset</h1>
-        <p class="subtitle">You requested to reset your Lexicrone Finance password</p>
+        <p class="subtitle">You requested to reset your Rcb Royale Bank password</p>
 
         <p style="font-size: 15px; margin-bottom: 10px;">Your 7-digit verification code is:</p>
         
@@ -108,7 +108,7 @@
 
         <div class="footer">
             <p>This is an automated message, please do not reply to this email.</p>
-            <p>&copy; {{ date('Y') }} Lexicrone Finance. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Rcb Royale Bank. All rights reserved.</p>
         </div>
     </div>
 </body>

@@ -8,7 +8,7 @@ const DashboardPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"Dashboard | Lexicrone Finance"} />
+                <SEO pageTitle={"Dashboard | Rcb Royale Bank"} />
                 <DashboardMain />
             </Wrapper>
         </ProtectedRoute>

@@ -8,7 +8,7 @@ const WithdrawPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"Withdraw Funds | Lexicrone Finance"} />
+                <SEO pageTitle={"Withdraw Funds | Rcb Royale Bank"} />
                 <WithdrawMain />
             </Wrapper>
         </ProtectedRoute>

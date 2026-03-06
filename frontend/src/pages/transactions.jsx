@@ -8,7 +8,7 @@ const TransactionsPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"Transaction History | Lexicrone Finance"} />
+                <SEO pageTitle={"Transaction History | Rcb Royale Bank"} />
                 <TransactionsMain />
             </Wrapper>
         </ProtectedRoute>

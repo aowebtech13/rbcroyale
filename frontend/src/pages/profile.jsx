@@ -8,7 +8,7 @@ const ProfilePage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"My Profile | Lexicrone Finance"} />
+                <SEO pageTitle={"My Profile | Rcb Royale Bank"} />
                 <ProfileMain />
             </Wrapper>
         </ProtectedRoute>

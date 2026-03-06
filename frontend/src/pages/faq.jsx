@@ -8,7 +8,7 @@ const FaqPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"FAQ | Lexicrone Finance"} />
+                <SEO pageTitle={"FAQ | Rcb Royale Bank"} />
                 <FaqMain />
             </Wrapper>
         </ProtectedRoute>

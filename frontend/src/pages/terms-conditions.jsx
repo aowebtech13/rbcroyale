@@ -10,7 +10,7 @@ const TermsConditions = () => {
     const content = (
         <>
             <p className="mb-20">Last Updated: February 26, 2026</p>
-            <p className="mb-20">Welcome to Lexicrone. These Terms and Conditions govern your access to and use of the Lexicrone account management platform. By creating an account or using this website, you agree to comply with the terms stated below.</p>
+            <p className="mb-20">Welcome to Lexicrone. These Terms and Conditions govern your access to and use of the Rcb Royale Bank account management platform. By creating an account or using this website, you agree to comply with the terms stated below.</p>
             
             <h4 className="text-slate-900 font-black mt-30 mb-15">1. Platform Purpose</h4>
             <p className="mb-20">Lexicrone provides an online account management system for registered traders and investment participants. The platform allows users to:</p>
@@ -53,7 +53,7 @@ const TermsConditions = () => {
             <p className="mb-20">Users may fund their accounts using approved payment methods. All transactions recorded on the platform are considered valid unless proven otherwise. Processing times may vary depending on payment providers. Lexicrone is not responsible for delays caused by third-party payment systems.</p>
 
             <h4 className="text-slate-900 font-black mt-30 mb-15">6. Risk Disclosure</h4>
-            <p className="mb-20">Trading and investment activities involve financial risk. By using Lexicrone, you acknowledge that:</p>
+            <p className="mb-20">Trading and investment activities involve financial risk. By using Rcb Royale Bank, you acknowledge that:</p>
             <ul className="mb-20 list-disc ml-20">
                 <li>Profits are not guaranteed.</li>
                 <li>Market performance may result in losses.</li>
@@ -86,15 +86,15 @@ const TermsConditions = () => {
             <h4 className="text-slate-900 font-black mt-30 mb-15">12. Contact Information</h4>
             <p className="mb-20">For questions or support, contact:</p>
             <ul className="mb-20 list-disc ml-20">
-                <li>Email: support@lexicrone.com</li>
-                <li>Platform: Lexicrone Support Portal</li>
+                <li>Email: support@rcbroyale.com</li>
+                <li>Platform: Rcb Royale Bank Support Portal</li>
             </ul>
         </>
     );
 
     return (
         <Wrapper>
-            <SEO pageTitle={"Terms & Conditions | Lexicrone Finance"} />
+            <SEO pageTitle={"Terms & Conditions | Rcb Royale Bank"} />
             <HeaderSix style_2={true} />
             <main>
              

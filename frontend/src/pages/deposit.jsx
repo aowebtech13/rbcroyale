@@ -6,7 +6,7 @@ import Wrapper from '../layout/wrapper';
 const DepositPage = () => {
     return (
         <Wrapper>
-            <SEO pageTitle={"Deposit | Lexicrone Finance"} />
+            <SEO pageTitle={"Deposit | Rcb Royale Bank"} />
             <DepositMain />
         </Wrapper>
     );

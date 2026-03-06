@@ -8,7 +8,7 @@ const InvestPage = () => {
     return (
         <ProtectedRoute>
             <Wrapper>
-                <SEO pageTitle={"Invest | Lexicrone Finance"} />
+                <SEO pageTitle={"Invest | Rcb Royale Bank"} />
                 <InvestMain />
             </Wrapper>
         </ProtectedRoute>

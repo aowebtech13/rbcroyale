@@ -9,7 +9,7 @@ import PolicyArea from '../components/policy/policy-area';
 const PrivacyPolicy = () => {
     const content = (
         <>
-            <p className="mb-20">At Lexicrone Finance, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard the data you provide to us.</p>
+            <p className="mb-20">At Rcb Royale Bank, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard the data you provide to us.</p>
             
             <h4 className="text-slate-900 font-black mt-30 mb-15">1. Information Collection</h4>
             <p className="mb-20">We collect information that you provide directly to us when you create an account, make an investment, or communicate with our support team. This may include your name, email address, phone number, and financial details.</p>
@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
 
     return (
         <Wrapper>
-            <SEO pageTitle={"Privacy Policy | Lexicrone Finance"} />
+            <SEO pageTitle={"Privacy Policy | Rcb Royale Bank"} />
             <HeaderSix style_2={true} />
             <main>
                 <Breadcrumb title_top="Privacy Policy" title_bottom="Legal Information" />
