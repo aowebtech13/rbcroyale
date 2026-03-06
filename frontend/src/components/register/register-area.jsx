@@ -59,7 +59,7 @@ const RegisterArea = () => {
                             <div className="signin-banner-from d-flex justify-content-center align-items-center" style={{ flex: '1' }}>
                                 <div className="signin-banner-from-wrap">
                                     <div className="signin-banner-title-box">
-                                        <h4 className="signin-banner-from-title">Register A Partner Account</h4>
+                                        <h4 className="signin-banner-from-title">Register At Rbc Bank</h4>
                                     </div>
                                    
                                     <div className="signin-banner-from-box">

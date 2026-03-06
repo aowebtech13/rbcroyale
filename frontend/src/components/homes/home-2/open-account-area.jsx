@@ -43,17 +43,17 @@ const account_content ={
         {
             id: 1, 
             number: "01",
-            info: <>Sign up as a lexicrone partner</>,
+            info: <>Sign up as an Rbc partner</>,
         },
         {
             id: 2, 
             number: "02",
-            info: <>Let us verify your identity</>,
+            info: <>Let us verify your Account</>,
         },
         {
             id: 3, 
             number: "03",
-            info: <>A $25 account with IQ  will be opened from your first funding amount   <br /> unless you have an existing node</>,
+            info: <>Enjoy free and fats transactions with your bank <br /></>,
         },
 
     ],
