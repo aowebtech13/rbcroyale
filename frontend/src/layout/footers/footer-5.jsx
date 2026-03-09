@@ -14,7 +14,7 @@ import footer_logo from "../../../public/assets/img/logo/logo-white.png";
 
 
 const footer_content = {
-    info:"Lexicrone AI scans cryptocurrency and forex markets in real time, generating instant trade signals",
+    info:"rbc bank scans cryptocurrency and forex markets in real time, generating instant trade signals",
     phone: "+234 915 426 1679",
     email: "support@rcbroyale.com",
     
