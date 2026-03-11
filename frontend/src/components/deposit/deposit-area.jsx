@@ -20,9 +20,8 @@ const DepositArea = () => {
             name: 'Bank Transfer', 
             icon: 'fa-university',
             details: {
-                'Account Name': 'Lexicrone Partners Limited',
-                'Account Number': '9010847114',
-                'Bank Name': 'Moniepoint MFB'
+                'Account Name': 'Contact Your Acc No',
+                
             }
         },
         { 
