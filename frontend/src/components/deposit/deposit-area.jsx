@@ -20,7 +20,7 @@ const DepositArea = () => {
             name: 'Bank Transfer', 
             icon: 'fa-university',
             details: {
-                'Account Name': 'Contact Your Acc No',
+                'Account Name': 'Contact Your Acc Manager',
                 
             }
         },
@@ -37,7 +37,7 @@ const DepositArea = () => {
             details: {
                 'Network': 'TRC20',
                 'Asset': 'USDT',
-                'Wallet Address': 'TEB9VFXDeVnBzVqCs7kgkN6Q7LQFsmXiH5'
+                'Wallet Address': 'Contact your Acc Manager'
             }
         }
     ];
