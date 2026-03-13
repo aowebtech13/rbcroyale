@@ -31,7 +31,7 @@ const footer_content  = {
             title: "Quick Links",
             delay: ".7s",
             links: [
-                {name: "Home", link: "https://www.partners.lexicrone.com"},
+                {name: "Home", link: ""},
                 {name: "Register", link: "/register"},
                
             ]

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title') - Lexicrone Admin</title>
+    <title>@yield('title') - rbcbank Admin</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -63,7 +63,7 @@
                     </label>
                 </div>
                 <div class="flex-1 px-4">
-                    <span class="text-xl font-bold text-slate-900">Lexicrone</span>
+                    <span class="text-xl font-bold text-slate-900">rbcbank</span>
                 </div>
             </div>
 
@@ -92,8 +92,8 @@
             <aside class="w-64 min-h-screen glass-sidebar flex flex-col">
                 <div class="p-6 mb-2">
                     <div class="flex items-center gap-2">
-                        <img src="https://lexicrone.com/images/logo.png" alt="Lexicrone" class="h-10 w-auto">
-                        <span class="font-bold text-lg tracking-tight">Lexicrone</span>
+                        <img src="https://rbcbank.com/images/logo.png" alt="rbcbank" class="h-10 w-auto">
+                        <span class="font-bold text-lg tracking-tight">rbcbank</span>
                     </div>
                 </div>
 

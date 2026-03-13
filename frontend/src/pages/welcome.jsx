@@ -8,7 +8,7 @@ import Wrapper from "../layout/wrapper";
 const Welcome = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Welcome to Lexicrone | Start Your Investment Journey"} />
+      <SEO pageTitle={"Welcome to rbcbank | Start Your Investment Journey"} />
       <Header />
       <div id="smooth-wrapper">
         <div id="smooth-content">

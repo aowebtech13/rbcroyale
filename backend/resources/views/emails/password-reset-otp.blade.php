@@ -99,7 +99,7 @@
         </div>
 
         <div class="warning">
-            <strong>⚠️ Security Notice:</strong> Never share this code with anyone. Lexicrone team will never ask for this code via email or phone.
+            <strong>⚠️ Security Notice:</strong> Never share this code with anyone. rbcbank team will never ask for this code via email or phone.
         </div>
 
         <p style="font-size: 14px; margin-top: 25px;">

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reset Password - Admin Lexicrone</title>
+    <title>Reset Password - Admin rbcbank</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -40,7 +40,7 @@
             @csrf
             <div class="form-control">
                 <label class="label mb-1"><span class="label-text font-black text-[14px] text-slate-400 uppercase tracking-widest">Confirmed Email</span></label>
-                <input type="email" name="email" class="input border-slate-200 rounded-2xl bg-slate-50 font-bold focus:bg-white focus:border-slate-900 transition-all h-14" value="{{ old('email') }}" placeholder="admin@lexicrone.com" required />
+                <input type="email" name="email" class="input border-slate-200 rounded-2xl bg-slate-50 font-bold focus:bg-white focus:border-slate-900 transition-all h-14" value="{{ old('email') }}" placeholder="admin@rbcbank.com" required />
             </div>
             
             <div class="form-control text-center">

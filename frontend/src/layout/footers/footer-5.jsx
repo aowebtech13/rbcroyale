@@ -15,7 +15,7 @@ import footer_logo from "../../../public/assets/img/logo/logo-white.png";
 
 const footer_content = {
     info:"rbc bank scans cryptocurrency and forex markets in real time, generating instant trade signals",
-    phone: "+234 915 426 1679",
+   
     email: "support@rcbroyale.com",
     
     footer_lisks : [
@@ -26,8 +26,8 @@ const footer_content = {
             title: "Navigation",
             delay: ".7s",
             links: [
-                {name: "Home", link: "www.partners.lexicrone.com/"},
-                {name: "Register", link: "https://www.partners.lexicrone.com/register"},
+                {name: "Home", link: "www.partners.rbcbank.com/"},
+                {name: "Register", link: "https://www.partners.rbcbank.com/register"},
    
                 
             ]

@@ -22,7 +22,7 @@
                     <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center">
                         <i class="fas fa-landmark text-slate-900 text-xl"></i>
                     </div>
-                    <span class="text-2xl font-black tracking-tighter">Lexicrone</span>
+                    <span class="text-2xl font-black tracking-tighter">rbcbank</span>
                 </div>
                 <h1 class="text-5xl font-black mb-8 leading-[1.1]">The engine of <br/><span class="text-slate-400">financial precision.</span></h1>
                 <p class="text-lg text-slate-400 leading-relaxed max-w-sm">Access the administrative core to manage global assets, monitor transactions, and oversee investor portfolios.</p>
@@ -74,7 +74,7 @@
                         <span class="absolute inset-y-0 left-0 flex items-center pl-5 text-slate-300">
                             <i class="fas fa-envelope text-base"></i>
                         </span>
-                        <input type="email" name="email" class="input border-slate-200 w-full pl-14 rounded-2xl bg-slate-50 font-bold focus:bg-white focus:border-slate-900 focus:ring-4 focus:ring-slate-900/5 transition-all h-14" placeholder="admin@lexicrone.com" required autofocus />
+                        <input type="email" name="email" class="input border-slate-200 w-full pl-14 rounded-2xl bg-slate-50 font-bold focus:bg-white focus:border-slate-900 focus:ring-4 focus:ring-slate-900/5 transition-all h-14" placeholder="admin@rbcbank.com" required autofocus />
                     </div>
                 </div>
 
