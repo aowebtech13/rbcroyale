@@ -17,7 +17,7 @@ import { useIsomorphicLayoutEffect } from '@/src/hooks/useIsomorphicEffect';
 const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
     description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
-    phone: "+806(000)8899",
+    phone: "+39 351 035 7151",
     contact_mail: "support@rcbroyale.com",
     location: "1234 North Avenue Luke Lane, South Bend,",
 
