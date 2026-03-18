@@ -23,7 +23,7 @@ const AvailablePlansArea = () => {
                     api.get('/user')
                 ]);
                 setGroups(groupsRes.data);
-                setUserBalance(userRes.data.balance);
+                setUserBalance(Number(userRes.data.balance || 0));
                 
                 const initialAmounts = {};
                 groupsRes.data.forEach(group => {
@@ -82,7 +82,7 @@ const AvailablePlansArea = () => {
             });
             if (data.user) {
                 setUser(data.user);
-                setUserBalance(data.user.balance);
+                setUserBalance(Number(data.user.balance || 0));
             }
             toast.success(`Successfully joined ${group.name}!`);
             router.push('/investment-progress');

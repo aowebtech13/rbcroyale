@@ -41,7 +41,7 @@ const WithdrawArea = () => {
             return;
         }
 
-        if (amount > user.balance) {
+        if (parseFloat(amount) > parseFloat(user.balance)) {
             toast.error("Insufficient balance.");
             return;
         }
@@ -53,7 +53,7 @@ const WithdrawArea = () => {
                 method,
                 details
             });
-            toast.success(data.message);
+            toast.success(data.message || "Withdrawal request submitted successfully. Please note that a standard 1.5% transaction fee applies to all withdrawals.");
             setUser(data.user); // Update local user balance
             setAmount('');
             setDetails('');
@@ -84,7 +84,7 @@ const WithdrawArea = () => {
                                 <div className="d-flex justify-content-between align-items-center mb-30">
                                     <h4 className="tp-withdraw-form-title mb-0">Request Withdrawal</h4>
                                     <div className="tp-balance-badge p-2 bg-primary text-white rounded">
-                                        Balance: ${user?.balance?.toFixed(2) || '0.00'}
+                                        Balance: ${Number(user?.balance || 0).toFixed(2)}
                                     </div>
                                 </div>
                                 <form onSubmit={handleSubmit}>
@@ -129,6 +129,10 @@ const WithdrawArea = () => {
                                     <button type="submit" className="tp-btn w-100" disabled={loading}>
                                         {loading ? 'Processing...' : 'Submit Request'}
                                     </button>
+                                    <p className="mt-15 mb-0 text-center small text-muted">
+                                        <i className="fal fa-info-circle me-1"></i>
+                                        A mandatory 1.5% transaction fee is applied to all withdrawals.
+                                    </p>
                                 </form>
                             </div>
                         </div>

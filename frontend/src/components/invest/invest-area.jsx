@@ -41,7 +41,7 @@ const InvestArea = ({ planId }) => {
                     router.push('/price');
                 }
                 
-                setUserBalance(userRes.data.balance);
+                setUserBalance(Number(userRes.data.balance || 0));
             } catch (error) {
                 console.error("Error fetching data:", error);
                 toast.error("Failed to load investment details");
