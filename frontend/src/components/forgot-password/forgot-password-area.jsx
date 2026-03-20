@@ -29,7 +29,10 @@ const ForgotPasswordArea = () => {
             setStep(2);
             setTimer(300);
         } catch (error) {
-            toast.error(error.response?.data?.message || "Failed to send OTP");
+            const errorMessage = error.response?.data?.errors 
+                ? Object.values(error.response.data.errors).flat()[0] 
+                : (error.response?.data?.message || "Failed to send OTP");
+            toast.error(errorMessage);
         } finally {
             setLoading(false);
         }
@@ -43,7 +46,10 @@ const ForgotPasswordArea = () => {
             toast.success("OTP verified!");
             setStep(3);
         } catch (error) {
-            toast.error(error.response?.data?.message || "Invalid OTP");
+            const errorMessage = error.response?.data?.errors 
+                ? Object.values(error.response.data.errors).flat()[0] 
+                : (error.response?.data?.message || "Invalid OTP");
+            toast.error(errorMessage);
         } finally {
             setLoading(false);
         }
@@ -70,7 +76,10 @@ const ForgotPasswordArea = () => {
             setNewPassword('');
             setConfirmPassword('');
         } catch (error) {
-            toast.error(error.response?.data?.message || "Failed to reset password");
+            const errorMessage = error.response?.data?.errors 
+                ? Object.values(error.response.data.errors).flat()[0] 
+                : (error.response?.data?.message || "Failed to reset password");
+            toast.error(errorMessage);
         } finally {
             setLoading(false);
         }
@@ -203,8 +212,9 @@ const ForgotPasswordArea = () => {
                                     type="password"
                                     value={newPassword}
                                     onChange={(e) => setNewPassword(e.target.value)}
-                                    placeholder="Enter new password"
+                                    placeholder="Enter new password (min 8 characters)"
                                     required
+                                    minLength={8}
                                     style={{
                                         width: '100%',
                                         padding: '12px 16px',
