@@ -57,7 +57,12 @@ const ForgotPasswordArea = () => {
         }
         setLoading(true);
         try {
-            await api.post('reset-password-with-otp', { email, otp, password: newPassword });
+            await api.post('reset-password-with-otp', { 
+                email, 
+                otp, 
+                password: newPassword,
+                password_confirmation: confirmPassword 
+            });
             toast.success("Password reset successfully!");
             setStep(1);
             setEmail('');
