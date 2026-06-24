@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 const SEO = ({ pageTitle }) => {
-  const defaultDescription = "Easily check your balances, view your transactions or statements ...";
-  const siteName = "Royal Bank";
+  const defaultDescription = "Manage your money with Ally: online banking, auto financing, and investments. Financial products designed to help you pursue your goals.";
+  const siteName = "Ally Bank";
   const fullTitle = pageTitle ? `${pageTitle} - ${siteName}` : siteName;
   const logoUrl = "/assets/img/logo/logo-white.png";
 
