@@ -43,7 +43,7 @@ const account_content ={
         {
             id: 1, 
             number: "01",
-            info: <>Sign up as an Rbc partner</>,
+            info: <>Sign up as an Ally partner</>,
         },
         {
             id: 2, 

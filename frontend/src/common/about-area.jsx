@@ -37,8 +37,8 @@ const about_data =[
 // about content
 const about_content = {
     title: "OVER 150K+ CLIENT",
-    sub_title: "Rbc Royal Bank", 
-    des: <>Explore the personal banking services and products available from RBC Royal Bank to help you manage your finances, buy a home, invest and more. </>,
+    sub_title: "Ally Bank", 
+    des: <>Explore the personal banking services and products available from Ally Bank to help you manage your finances, buy a home, invest and more. </>,
 
     about_list: [
         <>Online Banking</>,

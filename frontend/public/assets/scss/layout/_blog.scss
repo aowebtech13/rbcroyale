@@ -1562,7 +1562,7 @@
         background: #fff;
         transition: all 0.3s ease;
         &:focus{
-            border-color: #600EE4;
+            border-color: #680262;
             box-shadow: 0 0 0 4px rgba(96, 14, 228, 0.1);
         }
         &.password{
@@ -1585,7 +1585,7 @@
         transition: box-shadow .3s cubic-bezier(.3,0,0,.3);
         color: var(--tp-common-black);
         &:focus{
-            box-shadow: 0px 1px 2px 1px rgba($color: #202124, $alpha: .06), inset 0 0 0 2px #600EE4;          
+            box-shadow: 0px 1px 2px 1px rgba($color: #202124, $alpha: .06), inset 0 0 0 2px #680262;          
         }
     }
     & .floating-label {
