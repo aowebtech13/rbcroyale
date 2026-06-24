@@ -18,7 +18,7 @@ const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
     description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
     phone: "+39 351 035 7151",
-    contact_mail: "support@rcbroyale.com",
+    contact_mail: "support@ally-b.com",
     location: "1234 North Avenue Luke Lane, South Bend,",
 
     copy_right: <>Full Copyright & Design By <Link href="#">@A.O Webtech </Link> – {new Date().getFullYear()}</>,

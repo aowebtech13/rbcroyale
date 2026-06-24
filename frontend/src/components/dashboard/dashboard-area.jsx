@@ -70,11 +70,7 @@ const DashboardArea = () => {
         <>
             <div className="dashboard-area pt-7 pb-12">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <TradingViewWidget />
-                        </div>
-                    </div>
+                   
 
                     <div className="row mt-40">
                         <div className="col-xl-8 col-lg-12">

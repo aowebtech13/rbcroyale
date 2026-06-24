@@ -86,7 +86,7 @@ const TermsConditions = () => {
             <h4 className="text-slate-900 font-black mt-30 mb-15">12. Contact Information</h4>
             <p className="mb-20">For questions or support, contact:</p>
             <ul className="mb-20 list-disc ml-20">
-                <li>Email: support@rcbroyale.com</li>
+                <li>Email: support@ally-b.com</li>
                 <li>Platform: Rcb Royale Bank Support Portal</li>
             </ul>
         </>

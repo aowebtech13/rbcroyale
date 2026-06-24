@@ -16,7 +16,7 @@ import footer_logo from "../../../public/assets/img/logo/logo-white.png";
 const footer_content = {
     info:"Ally bank scans cryptocurrency and forex markets in real time, generating instant trade signals",
    
-    email: "support@rcbroyale.com",
+    email: "support@ally-b.com",
     
     footer_lisks : [
         {
