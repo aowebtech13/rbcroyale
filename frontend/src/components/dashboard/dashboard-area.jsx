@@ -39,11 +39,7 @@ const TradingViewWidget = () => {
         };
     }, []);
 
-    return (
-        <div id="tradingview-widget-container" className="mb-40" style={{ height: '700px' }}>
-            <div className="tradingview-widget-container__widget"></div>
-        </div>
-    );
+    
 };
 
 const DashboardArea = () => {
